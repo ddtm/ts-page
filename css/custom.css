@@ -1,0 +1,39 @@
+.jumbotron {
+	overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-color: transparent;
+}
+
+.bg {
+	position: absolute;
+	right: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.bg-left {
+  float: left;
+  height: 100%;
+}
+
+.bg-left img {
+	max-height:100%;
+}
+
+.bg-right {
+  overflow: hidden;
+  height: 100%;
+  background-image: url('../images/bg_right_white.png');
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+.phone {
+	font-size: 28px;
+	font-weight: bold;
+	color: rgb(217, 83, 79);
+}
+
