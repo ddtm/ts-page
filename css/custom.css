@@ -5,6 +5,10 @@
   background-color: transparent;
 }
 
+.add-right-pad {
+  margin-right: 5px; 
+}
+
 .bg {
 	position: absolute;
 	right: 0px;
@@ -26,7 +30,7 @@
 .bg-right {
   overflow: hidden;
   height: 100%;
-  background-image: url('../images/bg_right_white.png');
+  background-image: url('../images/bg_right_white2.png');
   background-repeat: repeat-x;
   background-size: contain;
 }
@@ -37,3 +41,24 @@
 	color: rgb(217, 83, 79);
 }
 
+.contacts-line {
+  overflow: auto;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.contacts-line .left {
+  float: left;
+  display:inline-block;
+  padding-right: 25px;
+}
+
+.contacts-line .right {
+  display:inline-block;
+  height: 100%;
+}
+
+.contacts-line .name {
+  font-size: 18px;
+  font-weight: bold;
+}
