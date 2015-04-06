@@ -35,6 +35,10 @@
   background-size: contain;
 }
 
+.bg-right img {
+  max-height:100%;
+}
+
 .phone {
 	font-size: 28px;
 	font-weight: bold;
